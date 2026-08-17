@@ -1,4 +1,4 @@
-import { BellRing, Bell } from 'lucide-react';
+import { BellRing } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function MorningBriefingFab({ onClick }) {

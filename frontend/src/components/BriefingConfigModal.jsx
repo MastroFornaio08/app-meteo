@@ -1,4 +1,4 @@
-import { X, Clock, Bell, CheckCircle2 } from 'lucide-react';
+import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function BriefingConfigModal({ isOpen, onClose }) {

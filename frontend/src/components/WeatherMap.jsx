@@ -1,4 +1,4 @@
-import { Map, X, Maximize2, Minimize2 } from 'lucide-react';
+import { Maximize2, Minimize2 } from 'lucide-react';
 import { cn } from '../utils/cn';
 
 export default function WeatherMap({ lat, lon, isExpanded, onToggleExpand }) {
