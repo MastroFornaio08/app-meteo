@@ -1,4 +1,5 @@
 import { Maximize2, Minimize2 } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { cn } from '../utils/cn';
 
 export default function WeatherMap({ lat, lon, isExpanded, onToggleExpand }) {
@@ -13,21 +14,21 @@ export default function WeatherMap({ lat, lon, isExpanded, onToggleExpand }) {
       transition={{ duration: 0.8, delay: 0.1 }}
       className="w-full h-full rounded-[2rem] overflow-hidden shadow-2xl bg-black/10 flex flex-col relative"
     >
-      <div className={cn("w-full h-full absolute inset-0 transition-all duration-500", !isExpanded && "pointer-events-none")}>
+      <div className={cn("w-full h-full absolute inset-0 transition-all duration-500")}>
         <iframe 
           title="Windy Map"
           width="100%" 
           height="100%" 
           src={mapUrl} 
           frameBorder="0"
-          className="absolute inset-0 opacity-80 mix-blend-luminosity" 
+          className="absolute inset-0 opacity-80 mix-blend-luminosity hover:opacity-100 hover:mix-blend-normal transition-all duration-500" 
         />
       </div>
 
       {/* Floating Action Button per Espandere/Ridurre */}
       <button 
         onClick={onToggleExpand}
-        className="absolute top-5 left-5 z-20 bg-black/40 hover:bg-black/60 backdrop-blur-xl text-white p-2.5 rounded-full transition-colors shadow-lg"
+        className="absolute top-5 left-5 z-20 bg-black/40 hover:bg-black/60 backdrop-blur-xl text-white p-2.5 rounded-full transition-colors shadow-lg hidden lg:block"
       >
         {isExpanded ? <Minimize2 size={20} /> : <Maximize2 size={20} />}
       </button>
