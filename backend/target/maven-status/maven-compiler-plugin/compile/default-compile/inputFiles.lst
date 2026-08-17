@@ -1,0 +1,12 @@
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\config\CorsConfig.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\config\SecurityConfig.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\controller\SubscriptionController.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\controller\WeatherController.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\dto\SubscribeRequest.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\dto\WeatherResponse.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\MeteoApplication.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\model\PushSubscription.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\repository\PushSubscriptionRepository.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\scheduler\BriefingScheduler.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\service\OpenMeteoService.java
+C:\Users\wdimauro_latraccia\Desktop\Meteo\app-meteo\backend\src\main\java\com\meteo\app\service\PushNotificationService.java

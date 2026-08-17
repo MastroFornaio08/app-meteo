@@ -1,0 +1,14 @@
+com\meteo\app\service\PushNotificationService.class
+com\meteo\app\config\CorsConfig$1.class
+com\meteo\app\model\PushSubscription.class
+com\meteo\app\MeteoApplication.class
+com\meteo\app\config\CorsConfig.class
+com\meteo\app\controller\SubscriptionController.class
+com\meteo\app\dto\SubscribeRequest.class
+com\meteo\app\scheduler\BriefingScheduler.class
+com\meteo\app\dto\SubscribeRequest$Keys.class
+com\meteo\app\service\OpenMeteoService.class
+com\meteo\app\controller\WeatherController.class
+com\meteo\app\repository\PushSubscriptionRepository.class
+com\meteo\app\config\SecurityConfig.class
+com\meteo\app\dto\WeatherResponse.class
