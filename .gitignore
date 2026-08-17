@@ -1,0 +1,11 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Le cartelle backend/ e frontend/ avranno i loro .gitignore specifici
