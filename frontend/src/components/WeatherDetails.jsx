@@ -1,6 +1,5 @@
-import React from 'react';
+import { Droplets, Thermometer, Eye, Sunrise, Sunset, Wind, ThermometerSun } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Wind, Droplets, Sunrise, Sunset, Eye, ThermometerSun } from 'lucide-react';
 
 export default function WeatherDetails({ details }) {
   const items = [

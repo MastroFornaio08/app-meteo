@@ -9,16 +9,16 @@ export default function RainEffect() {
     let animId;
 
     const resize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.width = globalThis.innerWidth;
+      canvas.height = globalThis.innerHeight;
     };
     resize();
-    window.addEventListener('resize', resize);
+    globalThis.addEventListener('resize', resize);
 
     // Crea le gocce
     const drops = Array.from({ length: 200 }, () => ({
-      x: Math.random() * window.innerWidth,
-      y: Math.random() * window.innerHeight,
+      x: Math.random() * globalThis.innerWidth,
+      y: Math.random() * globalThis.innerHeight,
       length: Math.random() * 20 + 10,
       speed: Math.random() * 8 + 6,
       opacity: Math.random() * 0.4 + 0.1,
@@ -56,7 +56,7 @@ export default function RainEffect() {
 
     return () => {
       cancelAnimationFrame(animId);
-      window.removeEventListener('resize', resize);
+      globalThis.removeEventListener('resize', resize);
     };
   }, []);
 

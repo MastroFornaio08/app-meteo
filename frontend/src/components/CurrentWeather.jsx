@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
 import { CloudRain, Sun, Cloud, Moon } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function CurrentWeather({ condition, temp, city, high, low, description }) {
   

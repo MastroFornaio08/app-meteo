@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import MainLayout from './layouts/MainLayout';
 import CurrentWeather from './components/CurrentWeather';
@@ -100,12 +100,15 @@ function App() {
         </AnimatePresence>
 
         <CurrentWeather {...currentData} />
-        <WeatherDetails details={detailsData} />
 
-        {/* Mappa su mobile (in coda) */}
-        <div className="lg:hidden w-full h-[400px] mt-8">
+        {/* Mappa su mobile (più in alto per maggiore visibilità) */}
+        <div className="lg:hidden w-full h-[350px] my-6 rounded-2xl overflow-hidden shadow-lg border border-white/10">
           <WeatherMap lat={location.lat} lon={location.lon} isExpanded={false} onToggleExpand={() => {}} />
         </div>
+
+        <WeatherDetails details={detailsData} />
+
+
 
         <div className="h-24 w-full flex-shrink-0" />
       </motion.div>
